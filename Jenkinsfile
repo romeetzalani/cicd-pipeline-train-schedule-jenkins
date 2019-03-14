@@ -1,6 +1,6 @@
 pipeline {
   agent any 
-  stage {
+  stages {
   stage ('build') {
     steps {
       echp "Running stage with steps"
